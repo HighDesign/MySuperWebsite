@@ -1,63 +1,91 @@
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 43px;
+  min-width: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  min-width: 57%;
+  width: auto;
+  transition: width 0.3s ease;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the background color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the dropdown container */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Style the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #45a049;
+}
+
+#tech-startup-ideas .skills-header,
+#architecture-startup-ideas .skills-header,
+#education-startup-ideas .skills-header,
+#law-startup-ideas .skills-header,
+#retail-ideas .skills-header,
+#fashion-ideas .skills-header,
+#health-ideas .skills-header,
+#other-ideas .skills-header {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+section {
+  margin-top: 100px;
+}
+
 /* Style the title */
 h1 {
     font-size: 36px;
     text-align: center;
     margin-top: 50px;
-}
-  
-  /* Style the dropdown button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-  
-  /* Style the dropdown content */
-.dropdown-content {
-    text-align: center;
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 500px;
-    width: 100%;
-    white-space: nowrap;
-}
-  
-  /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content,
-.dropdown-content:hover {
-    display: block;
-}
-  
-section {
-    margin-top: 100px;
-}
-  
-   /* Style the title */
-h1 {
-    font-size: 36px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-  /* Style the dropdown content */
-.dropdown {
-    display: flex;
-    justify-content: center;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 325px;
 }
 
 #technology-section h2 {
